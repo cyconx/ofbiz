@@ -1,1 +1,1 @@
-web: ant load-demo
+web: java -jar ofbiz.jar
