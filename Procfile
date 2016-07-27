@@ -1,1 +1,1 @@
-web: java -jar ofbiz.jar --load-data
+web: java $JAVA_OPTS -jar ofbiz.jar --load-data
