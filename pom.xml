@@ -70,16 +70,6 @@ under the License.
         <configuration>
         	<appName>nameless-tundra-92748</appName>
         </configuration>
-        <executions>
-           <execution>
-              <phase>process-resources</phase>
-              <configuration>
-                 <target name="load-demo">
-                   <ant antfile="build.xml"/>
-                 </target>
-              </configuration>
-           </execution>
-        </executions>
       </plugin>
     </plugins>
   </build>
