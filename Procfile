@@ -1,1 +1,1 @@
-web: java -jar ofbiz.jar
+web: java -jar ofbiz.jar 
