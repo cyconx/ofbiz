@@ -1,1 +1,1 @@
-web: ant.bat
+web: ./ant start
