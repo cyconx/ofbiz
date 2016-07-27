@@ -78,9 +78,6 @@ under the License.
                    <ant antfile="build.xml"/>
                  </target>
               </configuration>
-              <goals>
-                <goal>deploy</goal>
-              </goals>
            </execution>
         </executions>
       </plugin>
