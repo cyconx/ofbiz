@@ -79,7 +79,7 @@ under the License.
                  </target>
               </configuration>
               <goals>
-                <goal>run</goal>
+                <goal>deploy</goal>
               </goals>
            </execution>
         </executions>
