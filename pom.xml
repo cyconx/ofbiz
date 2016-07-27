@@ -74,7 +74,7 @@ under the License.
            <execution>
               <phase>process-resources</phase>
               <configuration>
-                 <target name="start">
+                 <target name="load-demo">
                    <ant antfile="build.xml"/>
                  </target>
               </configuration>
