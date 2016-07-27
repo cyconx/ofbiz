@@ -70,6 +70,19 @@ under the License.
         <configuration>
         	<appName>nameless-tundra-92748</appName>
         </configuration>
+        <executions>
+           <execution>
+              <phase>process-resources</phase>
+              <configuration>
+                 <target name="start">
+                   <ant antfile="build.xml"/>
+                 </target>
+              </configuration>
+              <goals>
+                <goal>run</goal>
+              </goals>
+           </execution>
+        </executions>
       </plugin>
     </plugins>
   </build>
